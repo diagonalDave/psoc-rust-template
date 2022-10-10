@@ -44,7 +44,6 @@ dependencies = [
  "panic-halt",
  "panic-semihosting",
  "psoc6-hal",
- "psoc6-pac",
 ]
 
 [[package]]

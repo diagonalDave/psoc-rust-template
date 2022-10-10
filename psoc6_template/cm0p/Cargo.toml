@@ -27,13 +27,6 @@ version = "0.2.3"
 path = "C:/Users/Dave/Documents/fossils/psoc6_hal"
 features = ["rt"]
 
-[dependencies.psoc6-pac]
-path = "C:/Users/Dave/Documents/github/psoc6-pac/"
-features = ["rt"]
-
-[features]
-rt = ["psoc6-pac/rt"]
-
 [profile.dev]
 incremental = false
 codegen-units = 1
